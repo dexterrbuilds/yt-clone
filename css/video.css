@@ -1,0 +1,89 @@
+.thumbnail-1 {
+    width: 100%;
+}
+
+.channel-pic {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.vid-info {
+    display: inline-block;
+    width: 200px;
+}
+
+.channel-pfp {
+    width: 36px;
+    border-radius: 100px
+}
+
+.video-title {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    font-size: small;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.vid-desc {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.creator {
+    color: rgb(90, 88, 88);
+    font-size: x-small;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.vid-stats {
+    color: rgb(90, 88, 88);
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.vid-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+    .vid-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .vid-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:751px) and (max-width:999px) {
+    .vid-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.vid-time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.thumbnail-row {
+    position: relative;
+}
